@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    <h1 style="background-color: orange;"> This is h1 heading</h1>
+    <h1 style="background-color: white;"> This is rohit heading</h1>
+    <h2 style="background-color: green;"> This is h2 heading</h2>
+    <h3> This is h3 heading</h3>
+    <h4> This is h4 heading</h4>
+    <h5> This is h5 heading</h5>
+    <h6> This is h6 heading</h6>
+    
+    <p> This is my first para</p>
+    <!-- anker tag divert to another website -->
+    <a href="https://www.google.com">click here</a>
+
+    <!-- list -->
+    <ul>
+        <li> Maggie</li>
+        <li>somosa</li>
+        <li>cold drink</li>
+    </ul>
+    <ol>
+        <li>open your vs code</li>
+        <li>write your code</li>
+        <li>make your website</li>
+    </ol>
+
+    <table>
+    <tr>
+      <td> S.no.</td>
+      <td> name</td>
+      <td> Roll no.</td>
+    </tr>
+
+    <tr>
+      <td> 1</td>
+      <td> ram</td>
+      <td> 54</td>
+    </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+
+    <img src="https://images.sftcdn.net/images/t_app-cover-s,f_auto/p/d3380a54-7461-4f93-848d-b88f584b0d97/2405807528/ms-dhoni-new-hd-wallpapers-screenshot.png" 
+    alt="dhoni photo"><br>
+
+    <!-- formatting tags -->
+    <p>Lorem <i>ipsum</i> dolor sit amet, consectetur adipisicing elit. Tenetur, rerum, exercitationem odit fugit et dolores reiciendis nam saepe voluptas quibusdam earum voluptate cupiditate, excepturi iste consequuntur. Dolor iure voluptatibus magnam. Sapiente necessitatibus ut, voluptatibus ipsam minima molestias veniam accusantium sunt magnam velit error possimus aperiam ipsa voluptas eius non iste!</p>
+    <p><s>Lorem</s> <u>ipsum</u> dolor sit amet, consectetur adipisicing elit. Tenetur, rerum, exercitationem odit fugit et dolores reiciendis nam saepe voluptas quibusdam earum voluptate cupiditate, excepturi iste consequuntur. Dolor iure voluptatibus magnam. Sapiente necessitatibus ut, voluptatibus ipsam minima molestias veniam accusantium sunt magnam velit error possimus aperiam ipsa voluptas eius non iste!</p>
+    
+    <p>
+        2*2*2*2*2 can be written as 2<sup>5</sup> <br>
+        formula of water can be written as O<sub>2</sub>
+    </p>
+    <pre> My name is Bharat daur
+    I live at Indore
+    </pre>
+</body>
+</html>
