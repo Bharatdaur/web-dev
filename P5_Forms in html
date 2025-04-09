@@ -39,6 +39,31 @@
 
         <label for="">Enter about yourself</label>
         <textarea name="text1" id="text1" cols="10" rows="5" placeholder="Enter your text here"></textarea>
+
+        <br><br>
+        <label for="radio">Radio button</label>
+        <input type="radio" id="radio">
+        
+        <label for="radio2">Radio button 2</label>
+        <input type="radio" id="radio2">
+        <br><br>
+
+        <label for="checkbox">English</label>
+        <input type="checkbox" id="checkbox">
+
+        <label for="checkbox1">Hindi</label>
+        <input type="checkbox" id="checkbox1">
+
+        <br><br>
+        <label for="file select1">Select file</label>
+        <input type="file" id="file select1">
+
+        <input type="image" id="file select1" src="https://wallpapercave.com/wp/wp9040712.jpg" 
+        width="150" height="200"><br><br>
+
+        <label for="pass">Enter password</label>
+        <input type="password" id="pass">
+
         </fieldset>
        
     </form>
