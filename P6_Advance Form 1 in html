@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <H2>Registration</H2>
+        <label for="text">Name: </label>
+        <input type="text" name="name" id="text">
+
+        <br><br>
+
+        <label for="Email">Email id: </label>
+        <input type="text" name="Email" id="Email">
+        
+        <br><br>
+
+        <label for="no">Phone No.: </label>
+        <input type="tel" name="no." id="no">
+        <br><br>
+
+        <label for="occupation">Select occupation type:</label>
+        <select name="occupation type" id="occupation">
+            <option value="student">Student</option>
+            <option value="professional">Professional</option>
+            <option value="other">Other</option>
+        </select>
+
+        <fieldset>
+            <legend>Topic of interest</legend>
+
+            <label for="checkbox1">Html</label>
+            <input type="checkbox" id="checkbox1">
+            <br>
+            <label for="checkbox2">CSS</label>
+            <input type="checkbox" id="checkbox2">
+            <br>
+            <label for="checkbox3">JavaScript</label>
+            <input type="checkbox" id="checkbox3">
+        </fieldset>
+        <br><br>
+        <label for="text1">Comments:</label>
+        <br>
+        <textarea name="text1" id="text1" rows="10" cols="25"></textarea>
+
+        <label for="button">Click here:</label>
+        <input type="submit" name="button" id="button">
+        
+    </form>
+</body>
+</html>
