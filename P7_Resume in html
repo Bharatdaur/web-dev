@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h2> Bharat Daur</h2>
+            <p>Contact :<a href="abcd.com">bharatdaur123@gmail.com</a></p>
+            <p>linkdin :<a href="linkdin">ketkeedaur@gmail.com</a></p>
+            <p>github :<a href="github">https://github.com/Bharatdaur/web-dev</a></p>
+
+        </div>
+
+        <table>
+            <tr>
+            <td>
+                <img src="" alt="bharat pic">
+            </td>
+            <td><p>I'm currently [your role – e.g., a student at XYZ University / working as a software developer at ABC Corp]. I have a background in [your field or major], and I'm really passionate about [something you're interested in – e.g., solving real-world problems through technology, creative writing, environmental sustainability, etc.].
+
+                In my free time, I enjoy [a few hobbies – e.g., reading, hiking, working on personal projects, gaming, etc.], and I’m always excited to learn new things and meet interesting people.
+                
+                Nice to meet you!</p></td>
+            </tr>
+        </table>
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>10th passed from Exceelent academy by 92%</li>
+                <li>12th passed from The New era public school by 92%</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Work experience</h2>
+            <h3>Software Engineer at Microsoft</h3>
+
+            <ul><li>Internship at google</li>
+            <li>internship at youtube</li>
+            <li>internship at microsoft</li></ul>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+                <ul><li>C++</li>
+                <li>C</li>
+                <li>python</li>
+                <li>Java</li>
+                <li>Web dev</li>
+                <li>Sql</li></ul>
+            
+
+            <h2>
+                Achivements
+            </h2>
+
+            <ul><li>Reprents college at national level cricket competition</li>
+            <li>standing first in Inter level Hackthon</li></ul>
+
+            <h2>Projects</h2>
+            <ul><li>I made jarviz by python</li>
+            <li>lot of web dev projects</li></ul>
+        </section>
+
+        <section>
+            <P><H2>Frequently asked Question</H2></P>
+            <P>
+                <Details>
+                    <summary>What is your Name ?</summary>
+                    <p>Bharat daur</p>
+                </Details>
+
+                <Details>
+                    <summary>What is your mobile no ?</summary>
+                    <p>92012*****</p>
+                </Details>
+
+                <Details>
+                    <summary>What is your favorite Colour ?</summary>
+                    <p> Black Panther colour</p>
+                </Details>
+
+            </P>
+        </section>
+
+        <footer><p>#2025 bharat daur. All rights reserved</p></footer>
+
+    </div>
+</body>
+</html>
