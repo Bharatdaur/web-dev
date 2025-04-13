@@ -21,3 +21,7 @@
 
 </body>
 </html>
+git add .
+git commit -m "Add file to be publicly accessible"
+git push origin main
+
