@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bharat website</title>
+</head>
+<body>
+    <img src="photo.png" alt="logo" width="150">
+    <br>
+    <img src="complete.png" alt="galaxy" width="300">
+    <br>
+
+    <audio src="yt1z.net - Dekha Ek Khwab - Rahul Jain  Unplugged Version (Lofi).mp3" controls></audio>
+    <br>
+    <video src="VID20240708085507.mp4" controls width="200" height="200px"></video>
+    <br>
+
+    <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA"></iframe>
+
+
+</body>
+</html>
