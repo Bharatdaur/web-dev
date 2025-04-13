@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Welcome to my website</h1></header>
+
+    <table>
+        <tr>
+        <td><img src="photo.png" alt="dsp" width="200"></td>
+        <td>
+            <nav>
+                <ul>
+                    <li><a href="#Roadmap">Road maps video</a></li>
+                    <li><a href="#Operating syatem">Operating syatem</a></li>
+                    <li><a href="#Dsa video">Dsa video</a></li>
+                    <li><a href="#DBMS video">DBMS video</a></li>
+                    <li><a href="#Web dev video">Web dev video</a></li>
+                </ul>
+            </nav>
+        </td>
+        </tr>
+</table>
+
+<section>
+    <h2>about google</h2>
+ <p>Google was founded on September 4, 1998, by American computer scientists Larry Page and Sergey Brin while they were PhD students at Stanford University in California. Together, they own about 14% of its publicly listed shares and control 56% of its stockholder voting power through super-voting stock. The company went public via an initial public offering (IPO) in 2004. In 2015, Google was reorganized as a wholly owned subsidiary of Alphabet Inc. Google is Alphabet's largest subsidiary and is a holding company for Alphabet's internet properties and interests. Sundar Pichai was appointed CEO of Google on October 24, 2015, replacing Larry Page, who became the CEO of Alphabet. On December 3, 2019, Pichai also became the CEO of Alphabet.[14]</p>
+
+</section>
+ 
+ <section>
+    <h2>Addtional media</h2>
+ <table>
+    <tr>
+        <td>    <audio src="yt1z.net - Dekha Ek Khwab - Rahul Jain  Unplugged Version (Lofi).mp3" controls></audio>
+        </td>
+        <td><video src="VID20240708085507.mp4" controls width="200" height="200px"></video>
+            <br></td>
+    </tr>
+ </table>
+ </section>
+
+ <section id="Roadmap">
+    <h2>Roadmap video</h2>
+    <table>
+        <tr>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+     
+    </tr>
+        <tr> 
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+    </tr>
+    </table>
+ </section>
+
+ <section id="Operating syatem">
+    <h2>Operating syatem video</h2>
+    <table>
+        <tr>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+     
+    </tr>
+        <tr> 
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+    </tr>
+    </table>
+ </section>
+
+ <section id="Dsa video">
+    <h2>Dsa video</h2>
+    <table>
+        <tr>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+     
+    </tr>
+        <tr> 
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+    </tr>
+    </table>
+ </section>
+
+ <section id="DBMS video">
+    <h2>DBMS video</h2>
+    <table>
+        <tr>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+     
+    </tr>
+        <tr> 
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+    </tr>
+    </table>
+ </section>
+
+ <section id="Web dev video">
+    <h2>Web dev video</h2>
+    <table>
+        <tr>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+     
+    </tr>
+        <tr> 
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+            <td> <iframe src="https://www.youtube.com/embed/o1_cE3yyZaA" width="250" height="200"></iframe></td>
+    </tr>
+    </table>
+ </section>
+
+</body>
+</html>
