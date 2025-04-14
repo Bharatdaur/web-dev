@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- Internal CSS -->
+    <style>
+        h1{
+            color: tomato;
+        }
+        p{
+            color: rgb(202, 66, 13);
+        }
+        #a1{
+            color: blue;
+        }
+        .paraclass{
+            color: gold;
+        }
+        p,article{
+            width: 500px;
+        }
+        .paraclass{
+            text-align: center;
+        }
+        </style>
+
+        
+
+ <link rel="stylesheet" href="P_10_Inline.css">
+
+</head>
+<body>
+    <!-- Inline CSS -->
+    <h1>Welcome to my website</h1>
+
+    <p class="paraclass">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, iure facilis. Commodi illo atque eaque aliquam possimus blanditiis odio dolores, est odit
+        assumenda alias necessitatibus expedita maxime perspiciatis quo provident.</p>
+
+    <p class="paraclass" style="background-color: black;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore ad doloremque pariatur velit, sit molestias alias ipsa repellat id delectus voluptatibus. 
+        Sint, labore odit suscipit perspiciatis fuga nulla at voluptatem?</p>    
+
+    <p class="paraclass">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus impedit odit dicta harum odio expedita veniam earum repellat aut quae aliquam quisquam 
+        dolore eius, minima sequi voluptatem vel est sunt deserunt nemo! Earum architecto corrupti, dolores similique omnis dolorem libero! Sequi voluptatum totam quisquam possimus earum aspernatur veniam impedit dolore.</p>    
+
+    <article id="a1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, deleniti.</article>
+    <br>
+    <footer>I am footer</footer>    
+</body>
+</html>
