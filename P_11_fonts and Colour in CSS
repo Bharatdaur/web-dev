@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+
+        p{
+            font-style: italic;
+            font-size: 25px;
+            font-family: cursive;
+            font-weight: lighter;
+            line-height: 30px;
+        }
+
+        #p1{
+            background-color: yellowgreen;
+        }
+
+        #p2{
+            background-color: rgb(252, 62, 94);
+        }
+        
+        #p3{
+            background-color: rgba(33, 165, 44, 0.507);
+        }
+
+        .c1{
+             background-color: #ffdc10; /*Hexadecimal colour method */
+        }
+
+        #p4{
+            background-color: hsl(120, 100%, 50%);
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Welcome to my Website</h1>
+
+    <p id="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis sunt voluptates quae! Maxime debitis laboriosam ullam consequuntur perspiciatis veniam ipsa.</p>
+
+    <p id="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, fugiat!</p>
+    
+    <p id="p3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod fugit consequuntur eligendi facilis, hic, quam veritatis quis reprehenderit eos laboriosam at, architecto aliquam doloremque facere repellendus. Perspiciatis ad dolorum non?</p>
+
+    <p class="c1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus reprehenderit vero voluptates pariatur officiis eos eligendi sequi ducimus commodi. Quam explicabo dolore quos dicta quia.</p>
+
+    <p id="p4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis unde dolore molestias dolorum facere earum expedita. Molestiae perferendis, explicabo cumque earum sequi voluptas minima sunt. Expedita eum eaque ex quod.</p>
+</body>
+</html>
