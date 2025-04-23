@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cs{
+            border: 2px solid red;
+            width: 30%;
+        }
+        .parent{
+            border: 1px solid black;
+            background-color: brown;
+            width: 50%;
+        }
+        .child{
+            border: 1px solid green;
+            background-color: aqua;
+            width: 40%;
+        }
+        .new{
+            height: 5vh;
+            background-color: bisque;
+            width: 50vw;
+        }
+        p{
+            font-size: 5rem;
+        }
+        .con{
+            font-size: 10em;
+        }
+    </style>
+</head>
+<body>
+    <div class="cs">
+        <h1>Welcome to Bharat web dev</h1>
+    </div>
+
+    <div class="parent">
+        <div class="child">Welcome to Bharat web dev</div>
+    </div>
+    <div class="new"><h3>Welcome to Bharat web dev</h3></div>
+    <p>jake rako sayian mar sake na koi</p>
+    <div class="con"><p>hello ji</p>HELLO BACHOOO..</div>
+</body>
+</html>
