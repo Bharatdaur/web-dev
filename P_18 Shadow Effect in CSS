@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --var1 : brown;         /* Creating variable (syntax) scoop in full body*/
+            --widt1 : 330px ;
+        }
+        .container{
+            background-color: beige;
+            height: 600px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            --var1 : brown;         /* Creating variable (syntax) scoop only in curly bracket*/
+            --widt1 : 330px ;
+            background-color: aquamarine;
+            width: var(--widt1);
+            height: 350px;
+            border: 2px solid var(--var1);
+            margin: 2px;  padding: 2px;
+            /* box-shadow: -10px 10px var(--var1); */
+            /* box-shadow: 10px 10px 10px red; */
+            /* box-shadow: 10px 10px 5px 15px firebrick */
+            /* box-shadow: inset 10px 20px goldenrod; */
+            /* box-shadow: 10px 10px green, 20px 20px red; */
+        }
+        #h1{
+            /* text-shadow: 2px 2px 3px red; */
+            /* text-shadow: red 2px 2px 2px; */
+            /* text-shadow: blue 2px 2px; */
+            text-shadow: 1px 1px greenyellow, 2px 2px 2px red, 3px 3px 3px rgb(0, 255, 64);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.Ti437U7AjYAQtpewkmR9VwHaEK?w=313&h=180&c=7&r=0&o=5&pid=1.7" alt="">
+            <h2 id="h1">Welcome to Code Masters</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ab et sequi labore voluptates recusandae deserunt nam reiciendis. Asperiores cum ex  ut, rem recusandae nihil accusamus dolorum odit?
+            </p>
+        </div>
+    </div>
+</body>
+</html>
