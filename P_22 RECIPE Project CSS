@@ -1,0 +1,159 @@
+#navlist{
+    list-style: none;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* width: 100%; */
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    width: 100%;
+    /* background: #B2FEFA;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #0ED2F7, #B2FEFA); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+    max-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+#webname{
+    font-style: italic;
+    font-size: 3rem;
+    font-weight: 700;
+   color: rgb(255, 252, 252);
+}
+.container{
+    width: 98vw ;
+    height: 130vh;
+    /* background: #FFEFBA;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #FFFFFF, #FFEFBA); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #e9e0e0;
+}
+a{
+    text-decoration: none;
+}
+#navitems{
+    display: flex;
+    gap: 40px;
+}
+
+.footer{
+    /* background-color: #0da8c7; */
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.3rem;
+
+}
+
+.content{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    box-shadow: 0px 0px 40px rgb(0, 0, 0);
+}
+
+.item1{
+    display: flex;
+    margin: 5px;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    padding: 50px;
+}
+
+.item2{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    padding: 20px;
+    gap: 15px;
+    padding: 50px;
+}
+
+.rightbox{
+    position: relative;
+    box-shadow: 1px 1px 20px black;
+    border-radius: 30px;
+}
+
+.rightbox img{
+    width: 320px;
+    border-radius: 30px;
+    transition: all 0.5s linear 0s;
+}
+
+.rightbox:hover{
+    transform: scale(1.1);
+    transition: all 0.5s linear 0s;
+}
+
+.leftbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.leftbox h2{
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.leftbox h3{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.Ingredientsbox{
+    font-size: 1.1rem;
+    font-family: cursive;
+}
+
+.Recipebox{
+    font-size: 19px;
+    font-family: serif;
+}
+
+.rightbox .overlay{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(65, 63, 63, 0.493);
+    border-radius: 30px;
+    opacity: 0;
+    /* transition: all 0.5s linear 0s; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightbox:hover .overlay{
+    opacity: 1;
+}
+
+.rightbox .overlay span{
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
