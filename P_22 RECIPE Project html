@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe in Css</title>
+    <link rel="stylesheet" href="Recipe project.css">
+</head>
+<body>
+    <div class="container">
+
+        <header>
+        <div class="nav">
+            <nav>
+                <ul id="navlist">
+                    <li>
+                    <p id="webname">Recipe with Code</p>
+                    </li>
+                    <li >
+                    <div id="navitems">
+                    <a href="#">Home</a>
+                    <a href="#">Contact</a>
+                    <a href="#">About</a>
+                    </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        </header>
+
+        <main>
+            <div class="content">
+                <section>
+                    <div class="item1">
+                        <div class="leftbox">
+                            <h2>Gulab Jamun</h2>
+                            <div><h3>Ingredients</h3>
+                                <ul class="Ingredientsbox">
+                                    <li>Sugar</li>
+                                    <li>Oil</li>
+                                    <li>Rawa</li>
+                                </ul>
+                            </div>
+                            
+                            <div><h3>Recipe</h3>
+                            <ol class="Recipebox">
+                                <li>Heat a deep medium-sized saucepan on a gas stove. Add sugar, water, rose essence (if using), and cardamom powder (if using) to the pan. Bring the mixture to a boil.</li>
+                                <li>After it boils, reduce the heat to medium-low and continue to cook until it reaches one-string consistency.</li>
+                                <li>Once one-string consistency is achieved, reduce heat to a simmer</li>
+                            </ol>
+                            </div>
+                            
+
+                        </div>
+                        <div class="rightbox">
+                        
+                        <img style="width: 300px;" height="250px" src="https://th.bing.com/th/id/OIP.kq4e7jHaSt3t1BAKFKVjNgHaHa?w=199&h=199&c=7&r=0&o=5&cb=iwc2&pid=1.7" alt="Gulab jamun">
+                        <div class="overlay">
+                            <span>Click here to Buy</span>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="item2">
+                        <div class="leftbox">
+                            <h2>Kaju katli</h2>
+                            <div><h3>Ingredients</h3>
+                                <ul class="Ingredientsbox">
+                                    <li>Sugar</li>
+                                    <li>Oil</li>
+                                    <li>Rawa</li>
+                                </ul>
+                            </div>
+                            
+                            <div><h3>Recipe</h3>
+                            <ol class="Recipebox">
+                                <li>Heat a deep medium-sized saucepan on a gas stove. Add sugar, water, rose essence (if using), and cardamom powder (if using) to the pan. Bring the mixture to a boil.</li>
+                                <li>After it boils, reduce the heat to medium-low and continue to cook until it reaches one-string consistency.</li>
+                                <li>Once one-string consistency is achieved, reduce heat to a simmer</li>
+                            </ol>
+                            </div>
+                            
+
+                        </div>
+                        <div class="rightbox">
+                            <img  style="height:280px;" src="https://th.bing.com/th/id/OSK.HEROawVSqpTAYKBx5TCqz-FzJBdGLMDOkfrdAr0tJDI9x1Y?w=312&h=200&c=7&rs=1&o=6&pid=SANGAM" alt="kaju katli">
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </main>
+       
+        <footer>
+            <div class="footer">
+                <p>Copyright  &copy; Bharat project pvt ltd All Right Reserved  </p>
+            </div>
+        </footer>
+       
+    </div>
+</body>
+</html>
