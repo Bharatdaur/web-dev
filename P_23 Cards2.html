@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards2</title>
+    <style>
+        *{
+            /* padding: 0; */
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            height: 100%;
+            min-height: 650px;
+            background-color: cadetblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .cards{
+            width: 350px;
+            height: 450px;
+            background-color: white;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        .cards img{
+            height: 40%;
+            width: 100%;
+            /* padding: 20px; */
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        .cards h2{
+            font-weight: bolder;
+            font-size: 1.5rem;
+            /* padding: 10px; */
+        }
+        .cards p{
+            font-size: 1.em;
+            padding: 10px;
+        }
+        .textbox{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* gap:5px; */
+            padding: 10px;
+            width: 90%;
+            text-align: center;
+        }
+        .amountbox{
+            width: 90%;
+            height: 10%;
+            background-color: aqua;
+            border-radius: 20px;
+            display: flex;
+            justify-content: space-between;
+            padding-right: 25px;
+            padding-left: 25px;
+            align-items: center;
+
+            
+        }
+        .button{
+            /* padding: 5%; */
+            width: 80%;
+            height: 9%;
+            background-color: rgb(17, 41, 117);
+            color: white;
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px black;
+        }
+        .leftbox p{
+            /* width: fit-content; */
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+
+        <div class="cards">
+            <img src="https://logocreator.io/wp-content/uploads/2024/01/delivery-logo-ideas-8.jpg"alt="code">
+
+            <div class="textbox"> 
+                <h2>Order summary</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elitis eveniet nostrum fbdjhsfd ijkdsn iente eaque,ipsa deleniti.</p>
+            </div>
+           
+            <div class="amountbox">
+                <div class="leftbox">
+                    <p>Amount</p>
+                    <p>$600/year</p>
+                </div>
+                <div class="rightcox">
+                    <a href="#">change</a>
+                </div>
+            </div>
+
+            <button class="button">
+                Proceed to payment
+            </button>
+        </div>
+    </div>
+</body>
+</html>
